@@ -1,0 +1,25 @@
+{
+    "name": "aegis-script",
+    "displayName": "AEGIS Script",
+    "description": "Ragnarok Online AEGIS Script",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.38.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "sc",
+            "aliases": ["AEGIS Script", "sc"],
+            "extensions": [".sc"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "sc",
+            "scopeName": "aegis",
+            "path": "./syntaxes/sc.tmLanguage.json"
+        }]
+    }
+}
